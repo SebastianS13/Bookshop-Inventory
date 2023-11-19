@@ -36,12 +36,12 @@ int main()
 			std::string Author;
 			int Pages;
 
-			std::cout << "Book title: ";
 			std::cin.ignore();
+
+			std::cout << "Book title: ";
 			std::getline(std::cin, BookTitle);
 
 			std::cout << "Author: ";
-			std::cin.ignore();
 			std::getline(std::cin, Author);
 
 			std::cout << "Pages: ";
@@ -61,12 +61,12 @@ int main()
 			std::string BookTitle;
 			std::string Author;
 
-			std::cout << "Book title: ";
 			std::cin.ignore();
+
+			std::cout << "Book title: ";
 			std::getline(std::cin, BookTitle);
 
 			std::cout << "Author: ";
-			std::cin.ignore();
 			std::getline(std::cin, Author);
 
 			std::vector<Book>::iterator it = Books.begin();
